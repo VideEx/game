@@ -1,0 +1,41 @@
+* {
+    font-family: "Muller Bold", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+canvas {
+    background: #3deb34;
+}
+
+.info {
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+
+    gap: 20px;
+}
+
+.score {
+    /*margin-left: 20px;*/
+    font-size: 20px;
+}
+
+.button {
+    padding: 20px;
+    background: blue;
+    color: white;
+    border: 0;
+}
+
+.info-text {
+    text-align: center;
+    /*padding-left: 19px;*/
+    max-width: 400px;
+    font-size: 20px;
+}
